@@ -1,12 +1,11 @@
-package vtb.stepup.task_2;
+package vtb.stepup.task_3.task;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target(ElementType.METHOD)
+@Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Cache {
-    int value() default 0;
+public @interface NotInState {
 }

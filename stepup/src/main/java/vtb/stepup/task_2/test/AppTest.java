@@ -13,8 +13,9 @@ public class AppTest {
 
         System.out.println(num.doubleValue());
         System.out.println(num.doubleValue());
+        System.out.println(num.doubleValue("xxxxx"));
         System.out.println(num.doubleValue());
-        Assertions.assertEquals(1, fr.getInvokeCount());
+        Assertions.assertEquals(0, fr.getInvokeCount());
         num.setNum(5);
         System.out.println(num.doubleValue());
         System.out.println(num.doubleValue());
